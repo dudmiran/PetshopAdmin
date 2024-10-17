@@ -1,0 +1,93 @@
+/* Dashboard.css */
+
+.dashboard {
+  margin-left: -150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card:nth-child(1) {
+  background-color: #ffcccb;
+  color: #b30000;
+}
+
+.card:nth-child(2) {
+  background-color: #ccffcc;
+  color: #006600;
+}
+
+.card:nth-child(3) {
+  background-color: #ccccff;
+  color: #000066;
+}
+
+.card:nth-child(4) {
+  background-color: #fff5cc;
+  color: #ff9900;
+}
+
+.card:nth-child(5) {
+  background-color: #d1e0e0;
+  color: #336666;
+}
+
+.card:nth-child(6) {
+  background-color: #f2d7d5;
+  color: #a93226;
+}
+
+@media (max-width: 768px) {
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 0.9rem;
+  }
+
+  .card p {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,102 @@
+/* Main container for orders */
+.orders-container {
+    padding: 30px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 10px;
+    margin-left: -200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title styling */
+.orders-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text */
+}
+
+/* List of orders */
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between order cards */
+}
+
+/* Individual order card styling */
+.order-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff; /* White background for cards */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0; /* Light border */
+    transition: transform 0.2s ease; /* Transition for hover effect */
+}
+
+/* Hover effect for order card */
+.order-card:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Darker shadow */
+}
+
+/* Order details styling */
+.order-details {
+    flex-grow: 1; /* Take up remaining space */
+}
+
+/* Food items styling */
+.order-items {
+    font-weight: bold; /* Bold text for items */
+}
+
+/* User name styling */
+.order-user {
+    font-size: 18px; /* Slightly larger font for user name */
+    margin: 5px 0;
+}
+
+/* Address styling */
+.order-address {
+    font-size: 14px; /* Smaller font for address */
+    color: #666; /* Lighter color for less emphasis */
+}
+
+/* Phone number styling */
+.order-phone {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Summary section for order */
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the end */
+}
+
+/* Items count styling */
+.order-items-count {
+    margin: 5px 0;
+}
+
+/* Total amount styling */
+.order-amount {
+    font-size: 18px;
+    font-weight: bold; /* Bold for total amount */
+}
+
+/* Select dropdown styling */
+.order-status-select {
+    margin-top: 10px; /* Spacing above dropdown */
+    padding: 8px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Select dropdown on focus */
+.order-status-select:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007bff; /* Highlight border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}

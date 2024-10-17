@@ -1,0 +1,48 @@
+.pet-list {
+  max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: -200px;
+  }
+  
+  .pet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .pet-table th,
+  .pet-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .pet-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pet-table td img.pet-image {
+    width: 80px; /* Set a fixed width for the images */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
